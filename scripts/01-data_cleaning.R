@@ -39,7 +39,7 @@ rent_clean<- rent_data %>%
 rent_clean$Score = strtoi(rent_clean$Score)
 rent_clean$Year_built = as.double(rent_clean$Year_built)
 rent_clean$Security = as.double(rent_clean$Security)
-#### What's next? ####
+
 
 
 
