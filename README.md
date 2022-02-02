@@ -5,9 +5,13 @@ This repository can be found at https://github.com/OlaedoOkpareke/starter_folder
 It is organised as follows:
 
 The rmd file contains the analysis report on Toronto apartment evaluation scores, as well as the code used to create the report.
+
 The pdf file contains the same analysis report but in pdf form, and without the code.
+
 The r script contains code for downloading and cleaning the raw data.
+
 The .bib file contains the citations for the packages used in the report.
+
 The csv file contains the dataset. 
 
 Abstract:
