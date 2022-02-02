@@ -1,34 +1,44 @@
 #### Preamble ####
-# Purpose: Clean the survey data downloaded from [...UPDATE ME!!!!!]
-# Author: Rohan Alexander [CHANGE THIS TO YOUR NAME!!!!]
-# Data: 3 January 2021
-# Contact: rohan.alexander@utoronto.ca [PROBABLY CHANGE THIS ALSO!!!!]
+# Purpose: Clean the Apartment Maintenance data downloaded from Open Data Toronto 
+# Author: Olaedo Okpareke
+# Data: 2 February 2022
+# Contact: olaedo.okpareke@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
-# - Need to have downloaded the ACS data and saved it to inputs/data
-# - Don't forget to gitignore it!
+# - Need to have installed the opendatatoronto and tidyr packages. 
+# - Gitignore it!
 # - Change these to yours
 # Any other information needed?
 
 
 #### Workspace setup ####
 # Use R Projects, not setwd().
-library(haven)
+library(opendatatoronto)
 library(tidyverse)
-# Read in the raw data. 
-raw_data <- readr::read_csv("inputs/data/raw_data.csv"
-                     )
-# Just keep some variables that may be of interest (change 
-# this depending on your interests)
-names(raw_data)
 
-reduced_data <- 
-  raw_data %>% 
-  select(first_col, 
-         second_col)
-rm(raw_data)
-         
+# Read in the raw data.
+apartment_data = list_package_resources("4ef82789-e038-44ef-a478-a8f3590c3eb1") %>%
+  filter(name=="Apartment Building Evaluation") %>%
+  get_resource()
 
+# Cleaning the data by dropping NAs
+apartment_data = na_if(apartment_data, 'N/A')
+
+rent_data <- apartment_data[complete.cases(apartment_data), ]
+
+# Keeping variables of interest
+rent_clean<- rent_data %>% 
+  dplyr::select(Score = SCORE,
+                Ward = WARDNAME,
+                Year_built = YEAR_BUILT,
+                Type= PROPERTY_TYPE,
+                Security = SECURITY
+  )
+
+# Changing variables into the proper variable types
+rent_clean$Score = strtoi(rent_clean$Score)
+rent_clean$Year_built = as.double(rent_clean$Year_built)
+rent_clean$Security = as.double(rent_clean$Security)
 #### What's next? ####
 
 

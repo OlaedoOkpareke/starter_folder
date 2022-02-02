@@ -36,7 +36,7 @@ The data for this report was gotten from the Apartment Building Evaluation (Rent
 
 For data cleaning, we removed all rows with missing values as they indicated that the apartment did not have a certain room, ammenity, or characteristic, but we wanted an "all things being equal" analysis, the assumption that attributes wise, they were alike. That is, we wanted to compare apartments that a had poor/ lacking characteristic, not no characteristic at all. It was also helpful to see the full picture so we could see if there was bias in grading instead of it not being graded at all. The missing values seemed to be randomly dispersed about the dataset so removing them would not cause much deviation.
 
-We included a variable if there was anything important that made it stand out for our analysis.  We omitted most variables in the original set as their direct effects were not important to the analysis, and the total score variable encompassed all of their individual scores. we first removed _id and RSN as they were merely ID variables. We also excluded the ward number variable as the ward names variable were easier to identify. We included both year built as we wanted to see the change in housing maintenance between older and newer apartments. We included score as it was the main determinant of maintenance standards, as well as security to observe the the differences in security between different groups of apartments, and we wanted to see its direct effect. We then included property type, which states whether an apartment was privately owned, owned by the Toronto Housing Corporation(THCH), or owned by some other non-private institution as our analysis focuses on social/affordable housing. The final dataframe included 487 observations with 5 variables.  
+We included a variable if there was anything important that made it stand out for our analysis.  We omitted most variables in the original set as their direct effects were not important to the analysis, and the total score variable encompassed all of their individual scores. we first removed _id and RSN as they were merely ID variables. We also excluded the ward number variable as the ward names variable were easier to identify. We included both year built as we wanted to see the change in housing maintenance between older and newer apartments. We included score as it was the main determinant of maintenance standards, as well as security to observe the the differences in security between different groups of apartments, and we wanted to see its direct effect. We then included property type, which states whether an apartment was privately owned, owned by the Toronto Housing Corporation(THCH), or owned by some other non-private institution as our analysis focuses on social/affordable housing. The final data frame included 493 observations with 5 variables.  
 
 ```{r}
 apartment_data = list_package_resources("4ef82789-e038-44ef-a478-a8f3590c3eb1") %>%
@@ -55,6 +55,10 @@ rent_clean<- rent_data %>%
                 Type= PROPERTY_TYPE,
                 Security = SECURITY
   )
+
+rent_clean$Score = strtoi(rent_clean$Score)
+rent_clean$Year_built = as.double(rent_clean$Year_built)
+rent_clean$Security = as.double(rent_clean$Security)
 ```
 
 ```{r}
@@ -72,11 +76,7 @@ rent_clean %>%
   guess_integer = FALSE
 )
 ```
-```{r}
-rent_clean$Score = strtoi(rent_clean$Score)
-rent_clean$Year_built = as.double(rent_clean$Year_built)
-rent_clean$Security = as.double(rent_clean$Security)
-```
+
 
 We are interested in the relationships between property Type and Ward on Score and security, as well as the trend of Score over time. It shows a measure of income inequality in housing, and has possible implications for public policy. A preview of the data, (Table \@ref(tab:1)) using kableexrra(Zhu 2021) is shown below.
 ```{r 1}
@@ -89,20 +89,35 @@ x
 
 ```{r 2}
 rent_clean %>% 
-  summarise(mean=mean(rent_clean$Score),median=median(rent_clean$Score), max = max(rent_clean$Score),min=min(rent_clean$Score))
+  summarise(mean=mean(rent_clean$Score),median=median(rent_clean$Score), max = max(rent_clean$Score),min=min(rent_clean$Score)) %>%
+  knitr::kable(col.names = c("Mean Score", "Median Score", "Maximum Score","Minimum Score"), caption = "Table of Summaries for Apartment Maintenance Scores")
 ```
 
 (Figure @\ref(fig: 1)), using ggplot2(Wickham 2016), shows the average maintenance scores by ward. Cross referencing the income and demographics of each ward using (City of Toronto 2022) , we see that the higher income wards such as Toronto Saint Paul's and Toronto-Danforth (155,470 and 101,323 average yearly income respectively 72% white and 67% white respectively as of 2016) tend to have both higher means and medians than lower income wards, such as Davenport and Humber River Black Creek (80,807 and 65,458 average yearly income as of 2016). An exception seems to be Scarborough North which has a low yearly average income and high racial minority population but a high average apartment maintenance score. However note that the median is very small, implies that the sample in this population may not be representative of the true state of apartments in this ward. Although there are several outliers Scores for each ward, in general apartment housing is better in richer wards than in poorer wards. High income Wards also tend to have fewer racial minorities, with Toronto saint Paul and Toronto-Danforth having a 72% and 67% white population respectively.
-```{r 1, fig.cap = "Boxplot of mean and median apartment scores by ward", echo = TRUE}
+```{r 1, fig.cap = "Boxplot of median apartment maintenance scores by ward", echo = TRUE}
 rent_clean %>%
   ggplot(aes(x = Ward,y = Score,group = Ward)) + 
   theme_minimal() +
   geom_boxplot() +
   coord_flip()+
-  labs(title = "Wealthier wards tend to have better apartment maintenance than poorer",
+  labs(title = "Wealthier wards tend to have better apartment maintenance than poorer Wards",
        x = "Ward",
        y = "Apartment Score")
 ```
+
+```{r ,fig.cap = "Barplot of Mean Apartment maintenance scores by ward}
+rent_clean %>%
+  ggplot(aes(x = Ward,y = Score)) + 
+  theme_minimal() +
+  geom_bar()
+  coord_flip()+
+  labs(title = "Wealthier wards tend to have better apartment maintenance than poorer",
+       x = "Ward",
+       y = "Average Apartment Score")
+  
+```
+
+
 (Figure @\ref(fig:2)) shows the mean and median apartment scores by type.  The results show that private buildings have the best average maintenance quality, and those from the Toronto housing Corporation have the lowest average. The spread of quality seems to be equal for all three housing types, so even accounting for variation private housing is consistently better than their public counterparts. This shows a disparity in priority for apartment maintenance and upkeep as well as general housing inequality, and shows that government are not on top of social housing affairs, as those in social housing owned by the TCHC also deserve high average maintenance taking care of their social housing. However it should be noted that (non THCH owned) social housing maintenance is not very far behind private housing, showing a just upkeep of housing. However according to (), people in social housing often have to take maintenance and upkeep into their own hands. 
 ```{r 2,fig.cap = "Boxplot of mean and median apartment scores by Apartment Type", echo = TRUE }
 rent_clean %>%
@@ -155,8 +170,9 @@ rent_clean %>%
   theme_minimal()+
   coord_flip()+
   geom_bar(mapping = aes(x = Ward, fill = Maintenance_Score),position="fill")+
+  geom_text(aes(label=Maintenance_Score), vjust=1.6, color="white", size=3.5)+
   scale_y_continuous(labels = scales::percent)
-
+# Add Dark2 here 
 ```
 
 
