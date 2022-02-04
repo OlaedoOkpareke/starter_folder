@@ -1,0 +1,494 @@
+Score,Ward,Year_built,Type,Security
+81,Toronto-Danforth,1996,SOCIAL HOUSING,5
+78,Scarborough Southwest,1992,SOCIAL HOUSING,5
+91,Eglinton-Lawrence,1965,PRIVATE,5
+59,Davenport,1968,TCHC,4
+88,Toronto-Danforth,1967,PRIVATE,5
+86,York Centre,1983,SOCIAL HOUSING,5
+77,York Centre,1966,PRIVATE,5
+74,Davenport,1955,PRIVATE,5
+77,York South-Weston,1979,PRIVATE,4
+77,University-Rosedale,1965,PRIVATE,4
+73,York South-Weston,1974,PRIVATE,4
+81,University-Rosedale,1968,PRIVATE,5
+86,Toronto Centre,1965,PRIVATE,5
+53,Etobicoke North,1973,TCHC,5
+79,Scarborough-Agincourt,1971,TCHC,4
+89,Toronto-Danforth,1967,PRIVATE,5
+85,Beaches-East York,1987,SOCIAL HOUSING,3
+76,Humber River-Black Creek,1971,PRIVATE,3
+75,Humber River-Black Creek,1971,PRIVATE,3
+75,Etobicoke North,1970,PRIVATE,5
+74,Etobicoke North,1970,PRIVATE,5
+91,Toronto-St. Paul's,1965,PRIVATE,5
+85,Toronto-St. Paul's,1968,PRIVATE,5
+87,Toronto-St. Paul's,1969,PRIVATE,5
+80,Toronto-St. Paul's,1967,PRIVATE,5
+81,Toronto-St. Paul's,1967,PRIVATE,5
+90,Eglinton-Lawrence,1964,PRIVATE,5
+71,Etobicoke Centre,1974,PRIVATE,3
+82,Etobicoke-Lakeshore,1960,PRIVATE,5
+85,Eglinton-Lawrence,1956,PRIVATE,5
+74,York South-Weston,1970,PRIVATE,5
+81,Don Valley North,1970,PRIVATE,4
+81,Don Valley North,1967,PRIVATE,5
+83,Beaches-East York,1970,PRIVATE,5
+71,Parkdale-High Park,1971,TCHC,5
+77,York South-Weston,1972,PRIVATE,5
+68,Parkdale-High Park,1965,PRIVATE,5
+86,University-Rosedale,1969,PRIVATE,5
+86,University-Rosedale,1965,PRIVATE,5
+76,Toronto-St. Paul's,1965,PRIVATE,5
+86,Toronto-St. Paul's,1986,SOCIAL HOUSING,5
+69,Humber River-Black Creek,1974,PRIVATE,3
+84,Scarborough Centre,1971,TCHC,4
+82,Scarborough Centre,1965,PRIVATE,5
+83,Don Valley North,1967,PRIVATE,4
+83,Toronto-St. Paul's,1993,TCHC,5
+61,Parkdale-High Park,1972,TCHC,5
+81,Don Valley North,1970,PRIVATE,4
+79,Don Valley West,1970,PRIVATE,4
+70,Don Valley North,1967,PRIVATE,4
+74,Toronto-St. Paul's,1961,PRIVATE,5
+20,Beaches-East York,1910,PRIVATE,1
+77,York South-Weston,1992,SOCIAL HOUSING,5
+77,Toronto-Danforth,1969,TCHC,5
+88,Toronto Centre,1978,PRIVATE,4
+72,Don Valley East,1962,TCHC,4
+75,Scarborough-Guildwood,1969,TCHC,4
+74,Scarborough-Guildwood,1969,TCHC,4
+86,York South-Weston,1996,SOCIAL HOUSING,5
+79,Humber River-Black Creek,1972,PRIVATE,4
+83,Toronto Centre,1979,PRIVATE,5
+90,Scarborough Centre,1960,TCHC,5
+85,Scarborough Centre,1968,TCHC,5
+65,Humber River-Black Creek,1994,SOCIAL HOUSING,4
+88,Toronto-St. Paul's,1993,TCHC,5
+86,Scarborough Centre,1962,PRIVATE,5
+78,Toronto-Danforth,1967,SOCIAL HOUSING,3
+69,Scarborough Centre,1974,PRIVATE,4
+81,Don Valley North,1965,PRIVATE,5
+83,York Centre,1965,PRIVATE,5
+81,York Centre,1966,PRIVATE,5
+83,Scarborough-Agincourt,1972,PRIVATE,5
+80,Scarborough-Guildwood,1975,PRIVATE,5
+87,Toronto-St. Paul's,1955,PRIVATE,5
+82,Scarborough-Guildwood,1967,PRIVATE,5
+79,Eglinton-Lawrence,1974,PRIVATE,5
+74,Etobicoke-Lakeshore,1963,PRIVATE,5
+87,Scarborough Southwest,1976,PRIVATE,5
+88,Don Valley North,1969,PRIVATE,5
+90,Toronto-Danforth,1983,SOCIAL HOUSING,5
+86,Toronto-Danforth,1985,SOCIAL HOUSING,5
+81,Etobicoke Centre,1963,PRIVATE,5
+79,Etobicoke Centre,1969,PRIVATE,5
+81,Eglinton-Lawrence,1968,PRIVATE,5
+72,York South-Weston,1967,PRIVATE,5
+84,Toronto-Danforth,2001,TCHC,5
+92,Toronto-St. Paul's,1975,PRIVATE,5
+90,Eglinton-Lawrence,1961,PRIVATE,5
+92,Eglinton-Lawrence,1992,TCHC,5
+86,Etobicoke-Lakeshore,1974,PRIVATE,4
+84,Etobicoke-Lakeshore,1973,PRIVATE,5
+80,Davenport,1974,PRIVATE,5
+75,York Centre,1972,PRIVATE,5
+77,Eglinton-Lawrence,1967,PRIVATE,5
+80,Eglinton-Lawrence,1967,PRIVATE,4
+93,Don Valley North,1971,PRIVATE,5
+87,York Centre,1967,PRIVATE,5
+76,York Centre,1969,PRIVATE,5
+83,York Centre,1970,PRIVATE,5
+85,University-Rosedale,1971,PRIVATE,4
+93,Toronto-St. Paul's,1969,PRIVATE,5
+78,Etobicoke North,1974,PRIVATE,5
+79,York Centre,1960,PRIVATE,5
+78,York South-Weston,1970,TCHC,5
+80,Parkdale-High Park,1964,PRIVATE,5
+79,York Centre,1964,PRIVATE,5
+86,York Centre,1964,PRIVATE,5
+72,York Centre,1969,PRIVATE,5
+70,Humber River-Black Creek,1984,TCHC,4
+82,Etobicoke Centre,1972,PRIVATE,4
+82,Scarborough Centre,1974,PRIVATE,5
+88,Scarborough Centre,1971,PRIVATE,5
+78,Don Valley North,1970,PRIVATE,5
+79,Toronto-St. Paul's,1961,PRIVATE,5
+90,Scarborough-Agincourt,1970,PRIVATE,5
+90,Toronto-Danforth,1992,SOCIAL HOUSING,5
+84,Toronto-Danforth,1966,PRIVATE,5
+72,Don Valley North,1974,PRIVATE,4
+92,Toronto-St. Paul's,1964,PRIVATE,5
+96,Beaches-East York,1993,TCHC,5
+91,Toronto-St. Paul's,1957,PRIVATE,5
+68,Parkdale-High Park,1969,TCHC,5
+74,Toronto-Danforth,1993,SOCIAL HOUSING,5
+83,Toronto-Danforth,1965,PRIVATE,5
+86,Toronto-Danforth,1988,TCHC,5
+92,Toronto Centre,2016,PRIVATE,4
+84,Toronto Centre,1965,PRIVATE,5
+91,Toronto-St. Paul's,1966,PRIVATE,4
+82,Toronto-St. Paul's,1965,PRIVATE,4
+91,Toronto-St. Paul's,1968,PRIVATE,5
+89,Toronto-St. Paul's,1968,PRIVATE,5
+85,Toronto-St. Paul's,1965,PRIVATE,5
+91,Toronto-St. Paul's,1966,PRIVATE,5
+85,Toronto-St. Paul's,1967,PRIVATE,4
+90,Toronto-St. Paul's,1970,PRIVATE,5
+89,Toronto-St. Paul's,1970,PRIVATE,5
+86,Toronto-St. Paul's,1969,PRIVATE,4
+81,Toronto-St. Paul's,1967,PRIVATE,5
+89,Scarborough-Guildwood,1966,PRIVATE,3
+87,Scarborough-Guildwood,1966,PRIVATE,5
+85,Toronto-St. Paul's,1964,PRIVATE,5
+90,Scarborough-Guildwood,1992,SOCIAL HOUSING,3
+89,Toronto-St. Paul's,1957,PRIVATE,5
+87,Toronto-St. Paul's,1957,PRIVATE,5
+87,Toronto-St. Paul's,1957,PRIVATE,5
+91,Toronto-St. Paul's,1957,PRIVATE,5
+83,Scarborough-Guildwood,1992,SOCIAL HOUSING,5
+93,Scarborough-Agincourt,1974,PRIVATE,5
+84,Scarborough-Agincourt,1971,PRIVATE,5
+78,Toronto-St. Paul's,1986,SOCIAL HOUSING,5
+87,Scarborough-Guildwood,1974,PRIVATE,4
+82,Scarborough-Agincourt,1971,PRIVATE,5
+91,Toronto-St. Paul's,1970,PRIVATE,5
+95,Toronto-St. Paul's,1969,PRIVATE,5
+82,Toronto-St. Paul's,1969,PRIVATE,5
+76,Toronto-St. Paul's,1969,PRIVATE,5
+84,Scarborough-Agincourt,1970,PRIVATE,5
+88,Scarborough North,1982,SOCIAL HOUSING,5
+74,Scarborough-Agincourt,1971,TCHC,5
+72,Scarborough-Agincourt,1971,TCHC,4
+82,University-Rosedale,1969,PRIVATE,5
+80,Toronto-St. Paul's,1967,PRIVATE,5
+72,Scarborough Centre,1957,PRIVATE,4
+81,University-Rosedale,1963,PRIVATE,5
+87,Scarborough Centre,1960,PRIVATE,5
+79,University-Rosedale,1968,PRIVATE,5
+85,University-Rosedale,1968,PRIVATE,5
+79,Scarborough Centre,1965,PRIVATE,5
+84,University-Rosedale,1965,PRIVATE,5
+84,University-Rosedale,1965,PRIVATE,5
+86,Scarborough Centre,1972,PRIVATE,5
+88,Eglinton-Lawrence,1974,PRIVATE,5
+77,Eglinton-Lawrence,1988,SOCIAL HOUSING,5
+56,Davenport,1968,TCHC,4
+87,Scarborough Centre,1963,PRIVATE,5
+80,Eglinton-Lawrence,1974,PRIVATE,5
+85,Scarborough Southwest,1972,TCHC,5
+81,Scarborough Southwest,1992,SOCIAL HOUSING,5
+69,Eglinton-Lawrence,1967,PRIVATE,4
+68,Eglinton-Lawrence,1967,PRIVATE,4
+79,Eglinton-Lawrence,1965,PRIVATE,4
+83,Scarborough Southwest,1964,PRIVATE,5
+71,Eglinton-Lawrence,1967,PRIVATE,4
+83,Scarborough Southwest,1964,PRIVATE,5
+81,Scarborough Southwest,1964,PRIVATE,4
+78,Humber River-Black Creek,1971,PRIVATE,3
+72,Humber River-Black Creek,1971,PRIVATE,3
+85,Scarborough Southwest,1970,PRIVATE,5
+74,Eglinton-Lawrence,1956,PRIVATE,5
+83,Eglinton-Lawrence,1964,PRIVATE,5
+83,Scarborough Southwest,1972,PRIVATE,5
+87,Scarborough Southwest,1972,PRIVATE,5
+80,York Centre,1968,PRIVATE,4
+90,Don Valley North,1970,PRIVATE,5
+99,Don Valley North,2010,PRIVATE,5
+89,Willowdale,1968,PRIVATE,5
+92,Don Valley North,1970,PRIVATE,5
+98,Don Valley North,1972,PRIVATE,5
+80,Don Valley North,1967,PRIVATE,4
+76,York Centre,1968,PRIVATE,3
+88,Willowdale,1970,PRIVATE,5
+97,Don Valley North,1970,PRIVATE,5
+87,Don Valley North,1970,PRIVATE,5
+81,York Centre,1966,PRIVATE,5
+76,York Centre,1983,SOCIAL HOUSING,5
+97,York Centre,2005,PRIVATE,5
+86,Don Valley North,1969,PRIVATE,5
+94,Don Valley North,1968,PRIVATE,5
+92,Don Valley North,1970,PRIVATE,5
+93,Don Valley North,1966,PRIVATE,5
+92,Don Valley North,1965,PRIVATE,5
+94,Don Valley North,1969,PRIVATE,5
+82,York Centre,1959,PRIVATE,5
+90,Don Valley North,1965,PRIVATE,5
+80,Don Valley North,1970,PRIVATE,5
+79,Don Valley East,1969,PRIVATE,5
+93,Willowdale,1971,PRIVATE,5
+86,Don Valley East,1976,PRIVATE,5
+84,Don Valley East,1973,PRIVATE,5
+89,Don Valley East,1969,PRIVATE,5
+89,Don Valley East,1974,PRIVATE,5
+86,Don Valley East,1968,PRIVATE,5
+90,Don Valley North,1966,PRIVATE,5
+87,Don Valley East,1968,PRIVATE,5
+99,Willowdale,2012,PRIVATE,5
+95,Don Valley North,1971,PRIVATE,5
+95,Willowdale,1996,SOCIAL HOUSING,5
+94,Don Valley North,1967,PRIVATE,5
+88,Don Valley East,1989,SOCIAL HOUSING,5
+72,York South-Weston,1974,PRIVATE,4
+86,York South-Weston,1994,SOCIAL HOUSING,5
+71,Parkdale-High Park,1971,TCHC,5
+62,Parkdale-High Park,1971,PRIVATE,4
+85,Don Valley East,1966,PRIVATE,5
+83,Don Valley East,1958,PRIVATE,5
+94,Don Valley East,1963,PRIVATE,5
+94,Don Valley East,1962,PRIVATE,5
+95,Don Valley East,1962,PRIVATE,5
+87,Parkdale-High Park,1990,SOCIAL HOUSING,5
+84,Etobicoke-Lakeshore,1961,PRIVATE,4
+96,Don Valley West,1968,PRIVATE,5
+76,Parkdale-High Park,1969,PRIVATE,5
+68,Parkdale-High Park,1965,PRIVATE,4
+78,Parkdale-High Park,1965,PRIVATE,5
+72,Parkdale-High Park,1965,PRIVATE,5
+67,Parkdale-High Park,1965,PRIVATE,5
+85,Parkdale-High Park,1986,PRIVATE,4
+89,Don Valley East,1993,SOCIAL HOUSING,5
+63,Parkdale-High Park,1990,SOCIAL HOUSING,4
+73,Parkdale-High Park,1992,SOCIAL HOUSING,3
+52,Parkdale-High Park,1972,TCHC,2
+60,Etobicoke-Lakeshore,1963,PRIVATE,4
+92,Don Valley West,1986,PRIVATE,5
+88,Don Valley West,1969,PRIVATE,5
+92,Etobicoke-Lakeshore,1966,PRIVATE,5
+87,Etobicoke-Lakeshore,1979,TCHC,3
+84,Etobicoke Centre,1974,PRIVATE,5
+92,Don Valley West,1993,TCHC,5
+91,Don Valley West,1965,PRIVATE,5
+90,Etobicoke Centre,1964,PRIVATE,5
+90,Etobicoke Centre,1969,PRIVATE,5
+86,Etobicoke Centre,1973,PRIVATE,5
+94,Don Valley West,2008,PRIVATE,5
+72,Etobicoke-Lakeshore,1973,PRIVATE,4
+81,Don Valley West,1964,PRIVATE,4
+95,Don Valley West,1972,PRIVATE,5
+98,Don Valley West,1972,PRIVATE,5
+87,Etobicoke-Lakeshore,1993,SOCIAL HOUSING,5
+86,Etobicoke-Lakeshore,1993,SOCIAL HOUSING,5
+90,Etobicoke Centre,1964,PRIVATE,5
+79,Don Valley West,1970,PRIVATE,5
+89,Don Valley West,1974,PRIVATE,5
+86,Don Valley West,1962,PRIVATE,5
+68,Etobicoke North,1973,TCHC,4
+79,Etobicoke North,1970,PRIVATE,4
+80,Etobicoke North,1970,PRIVATE,4
+80,Etobicoke Centre,1968,PRIVATE,4
+81,Etobicoke Centre,1968,PRIVATE,4
+77,Don Valley West,1970,PRIVATE,5
+82,Don Valley West,1970,PRIVATE,5
+81,Parkdale-High Park,1950,SOCIAL HOUSING,4
+87,Eglinton-Lawrence,1974,PRIVATE,5
+67,University-Rosedale,1966,SOCIAL HOUSING,5
+79,York South-Weston,1959,PRIVATE,5
+82,Toronto-St. Paul's,1975,PRIVATE,5
+64,York South-Weston,1992,SOCIAL HOUSING,3
+79,Etobicoke-Lakeshore,1974,PRIVATE,5
+94,Don Valley East,1965,PRIVATE,5
+78,Don Valley East,1961,PRIVATE,5
+85,Toronto-St. Paul's,1968,PRIVATE,5
+79,University-Rosedale,1971,PRIVATE,5
+78,Don Valley West,1967,PRIVATE,5
+89,Don Valley East,1963,PRIVATE,5
+79,Don Valley East,1966,PRIVATE,5
+79,Scarborough Southwest,1972,PRIVATE,4
+80,Don Valley East,1961,PRIVATE,5
+84,Don Valley East,1964,PRIVATE,5
+76,Scarborough Southwest,1972,TCHC,4
+72,Scarborough Southwest,1972,TCHC,4
+77,York Centre,1966,PRIVATE,3
+77,York Centre,1965,PRIVATE,3
+75,Scarborough Southwest,1972,TCHC,4
+84,Eglinton-Lawrence,1961,PRIVATE,5
+81,Etobicoke Centre,1972,PRIVATE,5
+84,Eglinton-Lawrence,1968,PRIVATE,5
+86,Don Valley East,1961,PRIVATE,5
+86,Etobicoke Centre,1973,PRIVATE,4
+80,York Centre,1964,PRIVATE,4
+66,Humber River-Black Creek,1965,PRIVATE,3
+73,York Centre,1969,PRIVATE,3
+74,York South-Weston,1973,PRIVATE,5
+76,Beaches-East York,1962,TCHC,4
+78,Beaches-East York,1960,TCHC,4
+77,Toronto-Danforth,2001,TCHC,4
+75,Don Valley East,1970,PRIVATE,5
+74,York Centre,1967,PRIVATE,3
+83,Don Valley East,1967,PRIVATE,5
+69,Scarborough-Agincourt,1971,TCHC,4
+78,Don Valley East,1968,PRIVATE,4
+69,York Centre,1960,SOCIAL HOUSING,3
+78,Parkdale-High Park,1964,PRIVATE,4
+74,Don Valley East,1965,PRIVATE,5
+64,Willowdale,1966,PRIVATE,3
+72,Scarborough Centre,1974,PRIVATE,4
+82,Scarborough-Agincourt,1972,PRIVATE,5
+88,Toronto-Danforth,1996,SOCIAL HOUSING,5
+72,York Centre,1972,PRIVATE,4
+76,York Centre,1970,PRIVATE,4
+80,York Centre,1970,PRIVATE,3
+66,York Centre,1965,PRIVATE,3
+83,Toronto-Danforth,1983,SOCIAL HOUSING,5
+80,Toronto-Danforth,1985,SOCIAL HOUSING,5
+63,Toronto Centre,1972,TCHC,4
+75,York Centre,1964,PRIVATE,3
+71,York Centre,1969,PRIVATE,3
+78,Toronto Centre,1992,SOCIAL HOUSING,4
+76,York Centre,1960,PRIVATE,4
+84,Toronto-Danforth,1968,PRIVATE,5
+75,Don Valley North,1967,PRIVATE,5
+84,Don Valley North,1969,PRIVATE,5
+84,Toronto-Danforth,1968,PRIVATE,5
+78,Don Valley North,1968,PRIVATE,5
+90,Don Valley North,1965,PRIVATE,5
+87,Don Valley North,1967,PRIVATE,5
+78,Don Valley North,1965,PRIVATE,5
+68,Toronto Centre,1980,TCHC,5
+79,Toronto Centre,1968,PRIVATE,4
+76,Beaches-East York,1970,PRIVATE,4
+63,Etobicoke-Lakeshore,1973,PRIVATE,4
+72,University-Rosedale,1970,PRIVATE,5
+55,Davenport,1968,TCHC,3
+80,Toronto Centre,1960,PRIVATE,4
+72,Don Valley West,1965,PRIVATE,5
+74,Scarborough-Guildwood,1967,PRIVATE,5
+81,Toronto-Danforth,1964,PRIVATE,5
+57,Parkdale-High Park,1971,TCHC,3
+62,Parkdale-High Park,1969,TCHC,3
+75,Toronto Centre,1970,PRIVATE,4
+83,Toronto-Danforth,1964,PRIVATE,5
+74,Etobicoke-Lakeshore,1977,TCHC,4
+82,Etobicoke North,1974,PRIVATE,4
+60,Scarborough-Agincourt,1971,PRIVATE,3
+95,Toronto Centre,2017,PRIVATE,5
+49,Parkdale-High Park,1969,TCHC,4
+59,Toronto Centre,1970,TCHC,3
+77,Toronto Centre,2010,TCHC,3
+62,Toronto Centre,1994,TCHC,3
+58,Humber River-Black Creek,1967,TCHC,3
+66,Scarborough Centre,1970,TCHC,3
+56,Toronto-Danforth,2001,TCHC,3
+68,Etobicoke-Lakeshore,1972,TCHC,3
+59,Don Valley East,1966,PRIVATE,3
+64,Etobicoke North,1977,SOCIAL HOUSING,3
+70,Toronto Centre,1979,PRIVATE,4
+73,Toronto Centre,1993,TCHC,4
+72,Etobicoke North,1992,SOCIAL HOUSING,3
+60,University-Rosedale,1966,SOCIAL HOUSING,3
+63,Spadina-Fort York,1983,TCHC,4
+75,Spadina-Fort York,1986,TCHC,4
+72,Parkdale-High Park,1982,SOCIAL HOUSING,4
+73,Don Valley North,1970,PRIVATE,4
+73,Don Valley North,1970,PRIVATE,4
+86,Toronto-St. Paul's,1999,PRIVATE,5
+78,Don Valley West,1974,PRIVATE,4
+63,Scarborough Centre,1950,PRIVATE,4
+69,Don Valley East,1958,PRIVATE,3
+76,Willowdale,1970,PRIVATE,4
+64,York South-Weston,1973,PRIVATE,4
+74,Toronto-Danforth,1966,PRIVATE,4
+67,Eglinton-Lawrence,1967,PRIVATE,3
+76,University-Rosedale,2009,PRIVATE,4
+70,University-Rosedale,1969,PRIVATE,3
+78,Don Valley West,1968,PRIVATE,4
+68,Scarborough-Guildwood,1992,SOCIAL HOUSING,4
+79,Etobicoke Centre,1964,PRIVATE,3
+58,York Centre,1967,PRIVATE,3
+57,York Centre,1964,PRIVATE,2
+65,York Centre,1964,PRIVATE,4
+64,Parkdale-High Park,1964,PRIVATE,4
+66,Etobicoke Centre,1973,PRIVATE,4
+72,Scarborough Southwest,1964,PRIVATE,4
+67,Eglinton-Lawrence,1965,PRIVATE,3
+65,University-Rosedale,1971,PRIVATE,4
+71,Etobicoke-Lakeshore,1960,PRIVATE,4
+74,Etobicoke-Lakeshore,1960,PRIVATE,4
+75,Don Valley East,1969,PRIVATE,4
+69,Scarborough Southwest,1968,PRIVATE,4
+78,Don Valley East,1974,PRIVATE,4
+72,York Centre,2005,PRIVATE,4
+60,Toronto-St. Paul's,1975,PRIVATE,3
+64,Scarborough-Guildwood,1994,SOCIAL HOUSING,3
+80,Don Valley North,1970,PRIVATE,5
+66,University-Rosedale,1968,PRIVATE,3
+82,Scarborough-Guildwood,1992,SOCIAL HOUSING,4
+74,Toronto-St. Paul's,1957,PRIVATE,4
+67,Don Valley West,1962,PRIVATE,3
+72,York South-Weston,1994,SOCIAL HOUSING,4
+69,Scarborough-Agincourt,1970,PRIVATE,3
+72,Toronto-St. Paul's,1970,PRIVATE,4
+66,Etobicoke-Lakeshore,1993,SOCIAL HOUSING,4
+53,York South-Weston,1959,PRIVATE,3
+70,Toronto-Danforth,1967,PRIVATE,3
+72,Toronto-Danforth,1967,PRIVATE,4
+74,Eglinton-Lawrence,1964,PRIVATE,4
+74,Scarborough Centre,1965,PRIVATE,4
+73,Toronto-St. Paul's,1970,PRIVATE,4
+72,Toronto-Danforth,1992,SOCIAL HOUSING,4
+82,Toronto Centre,2005,PRIVATE,4
+77,Parkdale-High Park,1992,SOCIAL HOUSING,4
+75,Don Valley East,1968,PRIVATE,4
+68,Toronto-St. Paul's,1965,PRIVATE,4
+48,Scarborough Southwest,1965,PRIVATE,3
+72,Beaches-East York,1974,PRIVATE,4
+62,Scarborough Southwest,1970,PRIVATE,4
+51,Don Valley North,1968,PRIVATE,4
+65,Don Valley North,1969,PRIVATE,4
+56,Toronto-Danforth,1983,SOCIAL HOUSING,3
+77,Don Valley East,1976,PRIVATE,4
+73,Don Valley East,1973,PRIVATE,4
+59,Toronto-Danforth,1985,SOCIAL HOUSING,3
+77,Toronto-St. Paul's,1966,PRIVATE,4
+58,Don Valley North,1965,PRIVATE,3
+61,Etobicoke Centre,1973,PRIVATE,3
+78,Eglinton-Lawrence,2005,PRIVATE,4
+62,Toronto Centre,1975,PRIVATE,4
+73,Don Valley North,1968,PRIVATE,5
+70,Don Valley North,1966,PRIVATE,4
+60,Humber River-Black Creek,1971,PRIVATE,3
+68,Humber River-Black Creek,1971,PRIVATE,3
+65,York Centre,1970,PRIVATE,4
+65,York Centre,1970,PRIVATE,4
+73,Don Valley East,1962,PRIVATE,5
+77,Don Valley East,1962,PRIVATE,5
+64,Don Valley East,1965,PRIVATE,4
+66,Etobicoke-Lakeshore,1963,PRIVATE,4
+68,Etobicoke-Lakeshore,1963,PRIVATE,3
+65,Scarborough Southwest,1972,PRIVATE,4
+67,Scarborough Southwest,1972,PRIVATE,4
+66,Scarborough Southwest,1972,PRIVATE,4
+75,Toronto-St. Paul's,1969,PRIVATE,4
+74,Scarborough Southwest,1992,SOCIAL HOUSING,4
+76,Don Valley West,1970,PRIVATE,3
+76,Don Valley West,1970,PRIVATE,3
+76,Don Valley West,1970,PRIVATE,3
+56,Scarborough Southwest,1969,PRIVATE,3
+61,University-Rosedale,1965,PRIVATE,4
+61,Scarborough Southwest,1976,PRIVATE,4
+62,Don Valley East,1968,PRIVATE,4
+72,Etobicoke-Lakeshore,1993,SOCIAL HOUSING,4
+74,University-Rosedale,1969,PRIVATE,4
+67,Beaches-East York,1987,SOCIAL HOUSING,4
+74,Don Valley East,1962,PRIVATE,5
+81,Eglinton-Lawrence,1988,SOCIAL HOUSING,4
+61,York South-Weston,1960,PRIVATE,3
+60,Eglinton-Lawrence,1974,PRIVATE,4
+81,Toronto-St. Paul's,1986,SOCIAL HOUSING,4
+65,Don Valley East,1966,PRIVATE,4
+74,Eglinton-Lawrence,1956,PRIVATE,4
+76,Eglinton-Lawrence,1974,PRIVATE,4
+58,Spadina-Fort York,1987,SOCIAL HOUSING,3
+61,Eglinton-Lawrence,1968,PRIVATE,4
+75,Toronto-St. Paul's,1966,PRIVATE,4
+79,Toronto-St. Paul's,1968,PRIVATE,4
+72,York Centre,1968,PRIVATE,3
+63,York South-Weston,1979,PRIVATE,4
+87,Willowdale,1992,SOCIAL HOUSING,5
+74,York Centre,1968,PRIVATE,4
+87,Toronto-St. Paul's,1969,PRIVATE,5
+81,Don Valley West,2008,PRIVATE,4
+76,Beaches-East York,1968,SOCIAL HOUSING,4
+63,Etobicoke-Lakeshore,1963,PRIVATE,3
+62,York South-Weston,1992,SOCIAL HOUSING,3
+81,Toronto-St. Paul's,1968,PRIVATE,4

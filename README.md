@@ -10,7 +10,7 @@ The pdf file contains the same analysis report but in pdf form, and without the 
 
 The r script contains code for downloading and cleaning the raw data.
 
-The .bib file contains the citations for the packages used in the report.
+The .bib file contains the citations for the raw data, packages and literature used in the report.
 
 The csv file contains the dataset. 
 
