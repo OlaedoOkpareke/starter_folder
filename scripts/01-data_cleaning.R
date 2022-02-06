@@ -6,16 +6,13 @@
 # License: MIT
 # Pre-requisites: 
 # - Need to have installed the opendatatoronto and tidyr packages. 
-# - Gitignore it!
-# - Change these to yours
-# Any other information needed?
+
 
 
 #### Workspace setup ####
-# Use R Projects, not setwd().
+
 library(opendatatoronto)
 library(tidyverse)
-
 # Read in the raw data.
 apartment_data = list_package_resources("4ef82789-e038-44ef-a478-a8f3590c3eb1") %>%
   filter(name=="Apartment Building Evaluation") %>%
