@@ -153,9 +153,9 @@ rent_clean %>%
 ```
 
 
-## Data discussion
+# Discussion
 
-### Societal Impact of Scores
+## Societal Impact of Scores
 
 As previously stated, the impact of these scores might lead to inaccurate judgments of social housing apartments or apartments in lower income areas as lower quality. This perpetuates harmful views on low income people that further progresses their marginalization in society by casting blame on social housing residents for poor conditions instead of the organizations that are supposed to maintain apartment quality. Given the importance of these scores in rating apartments and housing choice, there is a need to understand the decisions that go into the scores and how they could be interpreted. 
 
@@ -169,16 +169,16 @@ The report has shown a disparity in priorities in apartment maintenance and upke
 
 The data showed that Scarborough North, which has a 90% visible minority population with an average yearly income of 78,892 dollars as of 2016 compared to the Toronto average of 102,721 dollars [@torontoward], only has highly scored apartment buildings. If this is not due to a sampling problem, it is hopeful that apartment scores for other wards with similar incomes increase in the future. However low income residents have concerns that a high level of apartment security, or highly rated apartments in an otherwise lower income area can make the area more attractive to wealthier people. This could lead to gentrification, which pushes the original low income inhabitants out, which is a problem with the already tenuous social housing situation for these marginalized groups [@August2014] and [@Crosby2020]. 
 
-### Bias and Ethical Concerns
+## Bias and Ethical Concerns
 
 There are some areas for possible bias in the data which perpetuate preconceived notions of marginalized groups. As RentSafeTO does not release its criteria for grading, it is unknown what specific qualities they look for during the process. Measurement issues could occur as there is not a way to objectively grade an apartment, i.e it is unclear what distinguishes a rating of 4 from a rating of 5. It is thus possible to then give an apartment attribute of the same quality a higher score in a wealthier ward/private building with other good amenities, whilst giving apartments in poorer wards/social housing a lower score, due to bias against the general area or the social status of residents and not because of the apartment block itself. This maintains biases against the lower income and minorities as people get their previously held beliefs about the poor status of those communities confirmed [@Kamphuis2010]. Lower scores are prevalent in poorer wards and wards with high visible minority populations, and biases against these people and the general "feel" of an area may influence people to rent at a more expensive apartment block with good scores when there's a cheaper apartment that was inaccurately graded. On the other side, being in a more affluent ward may artificially prop up a mediocre apartment's score, thus inflating prices and making it less affordable even though its maintenance is lacking. There is thus a need for a more transparent grading system so that outsiders can cross check and make sure that no historic inequalities perpetuate themselves through biased scoring against those living in poor areas or social housing. 
 
-### Data Collection Concerns
+## Data Collection Concerns
 
 There are some data collection problems with this data set. RentSafeTO collects data only for apartment blocks with 3 or more stories or ten or more units [@torontoeval], meaning that some buildings that are in dire need of maintenance may be left behind as the organization simply does not collect data for them, even though most people may see them as apartments (i.e a three story block of 9 flats). This leaves out a big piece of the full picture on apartment quality, and may also be why some known wealthier wards are getting higher average scores as the low income housing there does not count. It also leaves out the full effect of income inequality as lower income people are now more likely to live in such types of "apartments" than the wealthy [@Musterd2014]. For apartments that do qualify for data collection, the grading is a scheduled event organized with the landlord ahead of time [@torontoeval]. This means that scores presented may not be an entirely accurate measure of the general upkeep of a building as landlords who neglect their property can hurriedly make repairs and straighten out the apartment block before the inspector/enforcement officer arrives. It may thus be necessary for inspectors to come up semi-unannounced to get the true evaluation of the building.
 
 
-### Income
+## Income
 
 It is important to note that not all living in private apartments are wealthy. In fact, there are many private apartments inhabited mainly by low income people so this disparity in scores between private and social housing may be due to reasons other than income inequality. It is important not to overlook those who are struggling to pay rent to access these improved amenities. Not all those who live in private areas or wealthier wards are rich as wealthier wards still have poor areas, so their own experiences may be neglected. 
 
@@ -190,7 +190,7 @@ Private housing is now itself getting harder to afford due to rising apartment c
 ## Weaknesses and next steps
 
 As average income was not provided for the data set, we had to collect external data which was set in 2016 and may not be accurate as it is not current to the modern day.
-While the N/As were dispersed randomly throughout the data set, removing them may have caused bias in the data set so our analysis of Scores, security and year built may have been different if the N/A values had been filled. Also, removing variables even if they were already present in the Score variable may have caused incorrect analysis as there may be some important information in the rejected variables that either brings a new perspective or aids one of the accepted variable in explaining the relationships between apartment type, ward, maintenance scores and security.
+While the missing values were dispersed randomly throughout the data set, removing them may have caused bias in the data set so our analysis of Scores, security and year built may have been different if the missing values had been filled. Also, removing variables even if they were already present in the Score variable may have caused incorrect analysis. This is because there may be some important information in the rejected variables that either brings a new perspective or aids one of the accepted variable in explaining the relationships between apartment type, ward, maintenance scores and security.
 
 For next steps we could use the geo-location variable that was omitted for this report to see if the scores for apartments on boundaries between poorer or richer wards had the negative bias of the poor wards or positive bias of the rich. We could also use this variable for a spatial comparison in contrast to the graphical comparison used in the report. We could then include apartment blocks that did not have all amenities in the comparison of income and scores to further observe evidence of inequality, as apartments in poor areas tend to have complete absence of some amenities.
 
