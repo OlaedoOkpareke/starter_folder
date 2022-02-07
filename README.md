@@ -6,7 +6,7 @@ First run the rscript file, this creates the dataset.  Then run the bib file for
 
 The repository is organised as follows:
 
-The outputs folder: 
+1. The outputs folder: 
 
 The .bib file contains the citations for the raw data, packages and literature used in the report.
 
@@ -14,11 +14,11 @@ The rmd file contains the analysis report on Toronto apartment evaluation scores
 
 The pdf file contains the same analysis report but in pdf form, and without the code.
 
-Inputs folder:
+2. The inputs folder:
 
 The csv file contains the dataset. 
 
-Scripts folder:
+3. The scripts folder:
 
 The r script contains code for downloading and cleaning the raw data.
 
