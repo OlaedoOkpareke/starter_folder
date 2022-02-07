@@ -109,6 +109,7 @@ rent_clean %>%
   summarize(Mean = mean(Security),Median = median(Security)) %>%
   knitr::kable(caption = "Table of Mean and Median security for each Apartment Type")%>% 
   kable_styling(latex_options = "HOLD_position")
+
 ```
 
 (Figure \@ref(fig:figfive)) shows the general trend of apartment maintenance scores for each apartment type according to the year they were built. We see that most apartments in the sample are quite old, being built between the 1950s to 1980s. Even though for all three types of apartment, newer buildings have better maintenance Scores than their older counterparts, private housing still gets consistently higher scores than the other two types for almost all the years. Most private apartments were built between the 1960s to 1970s while social housing was built between the 1980s to 2000s, so even the newer age of the social housing buildings is not enough to protect against lower rates of maintenance. This shows either the persistent lack of government and public maintenance or persistent bias in scoring, which both tie into income inequality. It should be noted that the trend for private apartments may be heavily influenced by the points at the far right end, and that many private apartments also have low scores. We also removed an outlier, an apartment built in 1910 as it affected the accuracy of the trend for private apartments. 
@@ -121,7 +122,6 @@ rent_clean %>%
   geom_smooth(method = 'lm', se = F)+ # to see the general trend
   geom_abline()+ # The regression line
   theme_minimal() +
-  scale_color_manual(values = c("PRIVATE" = "brown", "SOCIAL HOUSING" = "black", "TCHC" = "darkorange")) + # custom colors
   labs(x = "Year Built",
        y = "Maintenance Score",
        color = "Apartment Type") 
