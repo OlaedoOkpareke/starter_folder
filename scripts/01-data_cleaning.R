@@ -1,7 +1,7 @@
 #### Preamble ####
 # Purpose: Clean the Apartment Maintenance data downloaded from Open Data Toronto 
 # Author: Olaedo Okpareke
-# Data: 2 February 2022
+# Data: 6 February 2022
 # Contact: olaedo.okpareke@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
