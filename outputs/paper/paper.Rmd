@@ -1,5 +1,5 @@
 ---
-title: "Income Inequality is revealed in Torontonian Apartment Maintenance"
+title: "Income Inequality is Revealed in Torontonian Apartment Maintenance"
 author: "Olaedo Okpareke"
 thanks: 'Code and data are available at: https://github.com/OlaedoOkpareke/starter_folder'
 date: "`r format(Sys.time(), '%d %B %Y')`"
